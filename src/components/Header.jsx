@@ -1,6 +1,4 @@
-const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
-}
-export default Hero
+const Header = () => {
+  return <div>Hero Section Here</div>;
+};
+export default Header;

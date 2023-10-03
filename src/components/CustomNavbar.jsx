@@ -13,7 +13,7 @@ function CustomNavbar() {
       data-bs-theme="dark"
       className="bg-body-tertiary"
     >
-      <Container fluid>
+      <Container>
         <Navbar.Brand as={Link} to="/">
           Blogg
         </Navbar.Brand>
@@ -21,19 +21,9 @@ function CustomNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-end flex-grow-1 pe-3">
             <Nav.Link as={Link} to="/user/new-blog">
-              Write
+              <i className="bi bi-pencil-square"></i> Write
             </Nav.Link>
-            <Nav.Link as={Link} to="/signin">
-              Log In
-            </Nav.Link>
-            <Nav.Link as={Link} to="/signup">
-              Register
-            </Nav.Link>
-            <NavDropdown
-              title="UserName"
-              id="basic-nav-dropdown"
-              style={{ "padding-right": "2rem" }}
-            >
+            <NavDropdown title="UserName" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/profile">
                 Profile
               </NavDropdown.Item>

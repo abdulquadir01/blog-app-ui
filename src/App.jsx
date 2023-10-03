@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap-icons/bootstrap-icons.svg";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
