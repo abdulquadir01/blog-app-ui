@@ -1,22 +1,21 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './styles/App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./styles/App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import Login from './Pages/Login';
-import Signup from './Pages/Signup';
-import About from './Pages/About';
-import Home from './Pages/Home';
-import Profile from './Pages/Profile';
-import Settings from './Pages/Settings';
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
+import About from "./Pages/About";
+import Home from "./Pages/Home";
+import Profile from "./Pages/Profile";
+import Settings from "./Pages/Settings";
 import UserPosts from "./Pages/UserPosts";
-import SavedPosts from './Pages/SavedPosts';
-import NewPost from './Pages/NewPost';
-import Index from './components/Index';
+import SavedPosts from "./Pages/SavedPosts";
+import NewPost from "./Pages/NewPost";
+import Index from "./components/Index";
 
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>

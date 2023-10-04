@@ -31,10 +31,11 @@ const Signup = () =>{
       password: "",
     });
   };
+  
 
   return (
     <Index>
-      <Container style={{ margin: "4rem auto" }}>
+      <Container style={{ margin: "5rem auto" }}>
         <Form
           style={{
             padding: "3rem",
@@ -93,15 +94,25 @@ const Signup = () =>{
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group style={{ textAlign: "center" }}>
+          <Form.Group
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              gap: "1rem",
+            }}
+          >
             <Button variant="primary" type="submit">
               Submit
+            </Button>
+            <Button variant="warning" type="button" onClick={handleReset}>
+              Reset
             </Button>
           </Form.Group>
         </Form>
       </Container>
     </Index>
   );
-}
+};
 
 export default Signup;

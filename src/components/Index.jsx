@@ -23,7 +23,7 @@ const Index = ({ children }) => {
           </Nav>
         </Container>
       </Navbar>
-      <Container className="" style={{ margin: "0 auto", width: "60%" }}>
+      <Container className="" style={{ margin: "0 auto", width: "50%" }}>
         {children}
       </Container>
     </>
