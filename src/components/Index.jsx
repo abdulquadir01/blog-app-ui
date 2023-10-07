@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -23,7 +22,7 @@ const Index = ({ children }) => {
           </Nav>
         </Container>
       </Navbar>
-      <Container className="" style={{ margin: "0 auto", width: "50%" }}>
+      <Container className="" style={{ margin: "0 auto", width: "60%" }}>
         {children}
       </Container>
     </>
