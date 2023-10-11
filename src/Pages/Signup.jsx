@@ -52,12 +52,12 @@ const Signup = () => {
     // call register api
     signUp(formData)
       .then((response) => {
-        console.log(response);
+        console.log("Register response: \n",response);
         toast.success("User Successfully Registered!!");
         resetForm();
       })
       .catch((error) => {
-        console.error(error);
+        console.error("Registration Error: \n", error);
         toast.error("Something went wrong!!");
         // handle errors properly
         setError({

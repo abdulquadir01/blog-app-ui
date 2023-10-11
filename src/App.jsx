@@ -14,12 +14,12 @@ import UserPosts from "./Pages/UserPosts";
 import SavedPosts from "./Pages/SavedPosts";
 import NewPost from "./Pages/NewPost";
 import Index from "./components/Index";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-bootstrap";
 
 function App() {
   return (
     <BrowserRouter>
-      <ToastContainer>
+      <ToastContainer/>
         <Routes>
           <Route exact path="/" element={<Index />} />
           <Route exact path="/home" element={<Home />} />
@@ -33,7 +33,6 @@ function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/logout" />
         </Routes>
-      </ToastContainer>
     </BrowserRouter>
   );
 }
