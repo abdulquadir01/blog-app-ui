@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import CustomNavbar from "./CustomNavbar";
+import CustomNavbar from "./navbar/CustomNavbar";
 
 const Base = ({ title = "Welcome to our website", children }) => {
   return (
